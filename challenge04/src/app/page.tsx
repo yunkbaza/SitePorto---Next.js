@@ -1,9 +1,9 @@
-import Botao from "../components/Botao";
+import Cabecalho from "../components/Cabecalho";
 
 const Home = () => {
   return (
     <div>
-      <Botao />
+      <Cabecalho />
     </div>
   );
 };
