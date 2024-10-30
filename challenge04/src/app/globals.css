@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+hr {
+  @apply w-full;
+}
+
+@media (max-width: 768px) {
+  header img {
+    @apply mb-4;
+  }
+
+  #top {
+    @apply flex-col items-center;
+  }
+
+  .nav_bar {
+    @apply flex-col items-center; 
+  }
+
+  .nav_bar li {
+    @apply my-2; 
+  }
+
+  .btn_login {
+    @apply ml-0;
+  }
+
+  .conteudo, .conteudo2 {
+    @apply px-5 py-10; 
+  }
+
+  .fotos img {
+    @apply mx-2 mb-7;
+  }
+
+  footer .footer_content {
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-[repeat(auto-fit,minmax(150px,1fr))];
+  }
+}
